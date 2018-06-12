@@ -237,17 +237,49 @@
             top: -2px;
             left: -2px;
         }
+        .bk-container-current_1{
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            border-radius: 16px;
+            border: 1px #ff7800 solid;
+            background: blue;
+            display: inline-block;
+            top: -2px;
+            left: 44px;
+        }
+
+        .tapAction{
+            position: fixed;
+            z-index: 1002;
+            width: 100%;
+            height: 40%;
+            left: 0px;
+            top: 30%;
+        }
+        .tap-center{
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            left: 0px;
+        }
     </style>
 </head>
 <body>
 
 <!-- 有container抱在一起的在大屏幕上才能显示居中的 -->
 <div id = "root" class = "container">
-    <div id = "topNav" class = "top-nav">
+    <div class = "tapAction">
+        <div class="tap-center" id = "tap_center"></div>
+        <div class="tap-top"></div>
+        <div class="tap-bottom"></div>
+    </div>
+
+    <div id = "topNav" class = "top-nav" style="display: none">
         <div class = "icon-back"></div>
         <div class = "nav-title">玄幻</div>
     </div>
-    <div id = "fition_chapter_title"></div>
+    <div id = "fition_chapter_title" style="display: none"></div>
     <div id = "fition_container" class="m-read-content">
         <!--文字内容 -->
         <h4>标题--第一段</h4>
@@ -303,8 +335,9 @@
         </ul>
     </div>
 
-    <div class="nav-pannel-bk"></div>
-    <div class="bottom-pannel" id = "font-container">
+    <div class="nav-pannel-bk" id = "nav_pannel_bk" style="display: none"></div>
+
+    <div class="bottom-pannel" id = "font-container" style="display: none">
 
         <div class="child-mod">
             <span>字号</span>
@@ -316,11 +349,14 @@
             <span>背景</span>
             <div class="bk-container">
                 <div class="bk-container-current"></div>
+                <div class="bk-container-current_1"></div>
+            </div>
+
             </div>
         </div>
 
     </div>
-    <div class="bottom-nav" id="click_bottom_menu">
+    <div class="bottom-nav" id="click_bottom_menu" style="display: none">
         <div class="item-warp">
             <div class="icon-menu"></div>
             <div class="icon-text">
@@ -342,19 +378,92 @@
     </div>
 </div>
 <script>
-    var click_bottom = document.getElementById("click_bottom_menu");
 
-    for (var i = 0; i<click_bottom.children.length;i++){
-        var child = click_bottom.children[i];
-        child.index = i;
-        child.addEventListener("click", function(){
-            alert(this.index)
-            // alert("成功+" + index);
-        });
+    // 获取本地存储的数据 setter getter
+    (function () {
+        var  Util = (function () {
+            var prefix = "html5_reader_";
+            var  StorageGetter = function(key){
+                return localStorage.getItem(prefix+key);
+            }
+            var  StorageSetter = function(key){
+                return localStorage.setItem(prefix+key);
+            }
+            return {
+                StorageGetter:StorageGetter,
+                StorageSetter:StorageSetter
+            }
+        })();
+    })();
+
+    var Dom = {
+        top_nav : document.getElementById("topNav"),
+        bottom_nav : document.getElementById("click_bottom_menu"),
+        font_menu :document.getElementById("font-container"),
+        font_menu_back :document.getElementById("nav_pannel_bk"),
+    }
+    function main() {
+        //入口函数
+        EventHander();
     }
 
+    function readerModel() {
+    // 实现数据交互的方法
+    }
+
+<<<<<<< HEAD
     var topNav = document.getElementById("topNav");
     topNav.chi
+=======
+    function ReaderBaseFrame() {
+        // 渲染基本的UI
+    }
+
+    function EventHander() {
+        //交互的事件绑定
+
+        //点击中间 显示/隐藏top/bottom view
+        var tap_center = document.getElementById("tap_center");
+        tap_center.onclick = function(){
+            // alert(Dom.top_nav);
+
+            if (Dom.top_nav.style.display == "none"){
+                Dom.top_nav.style.display = "";
+                Dom.bottom_nav.style.display = "";
+            } else{
+                Dom.top_nav.style.display = "none";
+                Dom.bottom_nav.style.display = "none";
+                Dom.font_menu.style.display = "none";
+                Dom.font_menu_back.style.display = "none";
+            }
+        }
+
+        //点击bottom item
+        var click_bottom = document.getElementById("click_bottom_menu");
+
+        for (var i = 0; i<click_bottom.children.length;i++){
+            var child = click_bottom.children[i];
+            child.index = i;
+            child.addEventListener("click", function(){
+                if (this.index == 1){
+                    //点击字体
+                    if (Dom.font_menu.style.display == "none"){
+                        Dom.font_menu.style.display = "";
+                        Dom.font_menu_back.style.display = "";
+                    } else {
+                        Dom.font_menu.style.display = "none";
+                        Dom.font_menu_back.style.display = "none";
+                    }
+                }
+            });
+        }
+    };
+
+    //调用入口函数
+    main();
+
+
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
 
 </script>
 </body>

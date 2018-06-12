@@ -17,8 +17,19 @@
       <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web书城模仿/app.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="465">
               <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+=======
+            <state relative-caret-position="195">
+              <caret line="432" column="58" selection-start-line="432" selection-start-column="58" selection-end-line="432" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
             </state>
           </provider>
         </entry>
@@ -44,10 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>m-button-bar</find>
-      <find>icon-back</find>
-      <find>0.9</find>
-      <find>fition_chapter_title</find>
       <find>fition_container</find>
       <find>m-read-content</find>
       <find>prev_button</find>
@@ -60,7 +67,6 @@
       <find>icon-menu</find>
       <find>.icon-menu</find>
       <find>item-warp</find>
-      <find>bottom-nav</find>
       <find>icon-night</find>
       <find>icon-ft</find>
       <find>click</find>
@@ -68,6 +74,16 @@
       <find>nav-pannel</find>
       <find>child-mod</find>
       <find>bk-container</find>
+      <find>bk-container-current</find>
+      <find>bk-container-current_1</find>
+      <find>z-index</find>
+      <find>tap-center</find>
+      <find>top_nav</find>
+      <find>bottom-nav</find>
+      <find>tap_center</find>
+      <find>topNav</find>
+      <find>click_bottom_menu</find>
+      <find>bottom-pannel</find>
       <find>nav-pannel-bk</find>
     </findStrings>
   </component>
@@ -94,6 +110,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+<<<<<<< HEAD
       <path value="$PROJECT_DIR$/h5reader_teacher-4.13/node_modules/auto-reload/package.json" />
       <path value="$PROJECT_DIR$/h5reader_teacher-4.13/node_modules/co-views/node_modules/co-render/node_modules/consolidate/node_modules/bluebird/package.json" />
       <path value="$PROJECT_DIR$/h5reader_teacher-4.13/node_modules/co-views/node_modules/co-render/node_modules/consolidate/package.json" />
@@ -464,6 +481,8 @@
       <path value="$PROJECT_DIR$/h5reader_teacher-4.13/node_modules/webpack/node_modules/webpack-core/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/h5reader_teacher-4.13/node_modules/webpack/node_modules/webpack-core/package.json" />
       <path value="$PROJECT_DIR$/h5reader_teacher-4.13/node_modules/webpack/package.json" />
+=======
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
       <path value="$PROJECT_DIR$/h5reader_teacher-4.13/package.json" />
     </packageJsonPaths>
   </component>
@@ -487,6 +506,20 @@
               <item name="JS学习" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS学习" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="JS学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS学习" type="462c0819:PsiDirectoryNode" />
+              <item name="h5reader_teacher-4.13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS学习" type="462c0819:PsiDirectoryNode" />
+              <item name="h5reader_teacher-4.13" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
           </expand>
           <select />
         </subPane>
@@ -500,6 +533,8 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -554,27 +589,41 @@
       <workItem from="1528601159236" duration="1791000" />
       <workItem from="1528603002977" duration="1778000" />
       <workItem from="1528604823103" duration="583000" />
+<<<<<<< HEAD
       <workItem from="1528702796831" duration="1313000" />
+=======
+      <workItem from="1528717139815" duration="1747000" />
+      <workItem from="1528718942531" duration="1783000" />
+      <workItem from="1528720756158" duration="1716000" />
+      <workItem from="1528722569762" duration="43000" />
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="23105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="711" y="290" width="1325" height="1013" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="27081000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12576687" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50037175" side_tool="true" weight="0.3997114" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24969098" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49962825" weight="0.2929293" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49962825" weight="0.16450216" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -592,7 +641,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JavascriptDebugType">
@@ -612,6 +661,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web书城模仿/app.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2670">
           <caret line="178" column="29" lean-forward="true" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="29" />
         </state>
@@ -628,10 +678,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3420">
           <caret line="228" column="31" lean-forward="true" selection-start-line="228" selection-start-column="31" selection-end-line="228" selection-end-column="31" />
+=======
+        <state relative-caret-position="6030">
+          <caret line="402" column="33" lean-forward="true" selection-start-line="402" selection-start-column="33" selection-end-line="402" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web书城模仿/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6330">
+          <caret line="422" column="44" selection-start-line="422" selection-start-column="44" selection-end-line="422" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/view/reader.html" />
+    <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web书城模仿/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3855">
+          <caret line="257" column="24" selection-start-line="257" selection-start-column="24" selection-end-line="257" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/view/reader.html" />
+=======
+    <entry file="file://$PROJECT_DIR$/web书城模仿/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" column="29" lean-forward="true" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
+    <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web书城模仿/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="228" column="31" lean-forward="true" selection-start-line="228" selection-start-column="31" selection-end-line="228" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/view/reader.html" />
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -647,6 +788,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/view/reader.html" />
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
     <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -662,6 +804,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/view/reader.html" />
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -677,6 +821,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/view/reader.html" />
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
     <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -823,6 +968,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/static/css/reset.css" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/view/reader.html" />
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
     <entry file="file://$PROJECT_DIR$/web书城模仿/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -830,11 +979,24 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/webapp书城/h5reader_teacher-4.13/view/reader.html" />
     <entry file="file://$PROJECT_DIR$/web书城模仿/app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/web书城模仿/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="432" column="58" selection-start-line="432" selection-start-column="58" selection-end-line="432" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> b5c479e6ad3d0b2b3785c0dab912a60bb795c039
         </state>
       </provider>
     </entry>
